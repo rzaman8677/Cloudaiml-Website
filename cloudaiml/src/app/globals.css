@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply transition-colors duration-300 ease-in-out;
+  overflow-x: hidden;
+}
+
+.bg-stars {
+  background-image: url("/images/stars.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+}
+
+/* Light Mode */
+.light-mode {
+  background: #f3e7e9; /* Light background */
+  background: -webkit-linear-gradient(to right, #f3e7e9, #e3eeff);
+  background: linear-gradient(to right, #f3e7e9, #e3eeff);
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #1a1a2e;
+  background: -webkit-linear-gradient(to right, #1a1a2e, #16213e);
+  background: linear-gradient(to right, #1a1a2e, #16213e);
+}
+
+.dark-mode .text-blue-900 {
+  @apply text-white;
+}
+
+.dark-mode .bg-gray-50 {
+  @apply bg-gray-800;
+}
+
+.dark-mode .text-gray-600 {
+  @apply text-gray-300;
+}
+
+.dark-mode .text-gray-500 {
+  @apply text-gray-400;
+}
+
+.dark-mode .text-gray-700 {
+  @apply text-gray-100;
+}
