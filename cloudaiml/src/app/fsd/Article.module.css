@@ -1,0 +1,89 @@
+/* styles/Article.module.css */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #111111;
+  color: #f0efef;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.darkModeToggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1000000000;
+}
+
+.navbar {
+  padding: 20px;
+  text-align: center;
+  background-color: #1e40af;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.navText {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.headerImage {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 20px 0 10px;
+  text-align: center;
+  color: #333333;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #666666;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.sectionHeader {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  color: #444444;
+}
+
+.paragraph {
+  margin: 20px 0;
+  font-size: 1rem;
+  color: #555555;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  color: #555555;
+  font-size: 1rem;
+}
